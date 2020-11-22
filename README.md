@@ -1,1 +1,6 @@
-# INF4062-D2
+# INF4063-D2
+
+## Membres
+
+- Claire Bun
+- Jacob Johnston
