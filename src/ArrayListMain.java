@@ -37,7 +37,6 @@ class ArrayListMain {
 
         //#3&4
         // Supprimer le premier element
-        //TODO: add for loop around deletion
         startTime = System.nanoTime();
         for(int i = 0; i<nElement; i++) {
             linkL.removeFirst();
@@ -49,7 +48,6 @@ class ArrayListMain {
 
         //#5
         // creation de l'instance de arrL de linkL
-        //TODO: populate arrL with LN not LinkL
         arrL = new ArrL();
         for(int i = 0; i<nElement; i++) {
             arrL.add(i);
@@ -68,8 +66,6 @@ class ArrayListMain {
 
         //#7
         // ArrayList inverse
-
-        // calculer l'index
         for(int i = 0; i<nElement; i++) {
             arrL.add(i);
         }
@@ -77,15 +73,10 @@ class ArrayListMain {
         {
             arrL.remove(i);
         }
-
-
-
         startTime = System.nanoTime();
         endTime = System.nanoTime();
         duration = endTime - startTime;
         String arrLDureeInverse = "Suppression des éléments de ArrL avec remove(i) ciblant les derniers éléments d’un ArrayList, avec une durée de duréeArrayInverse = ";
         System.out.println(String.format(arrLDureeInverse + " %s ", duration + " nanosecondes"));
-        // afficher les nouveaux elements
-
     }
 }
