@@ -8,7 +8,7 @@ class LinkL extends LinkedList {}
 // Classe ArrayList
 class ArrL extends ArrayList {}
 
-class ArrayListMain {
+class BunClaireJohnstonJacobDevoir2 {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
